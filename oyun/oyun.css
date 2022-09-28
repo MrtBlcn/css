@@ -1,0 +1,124 @@
+ body
+ {
+    margin: 0;
+ }
+ #gok
+{
+    height:80vh;
+    width:100%;
+    background-color:aqua;
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+#yer
+{
+    height:10vw;
+    width: 100%;
+    background-color:darkgreen;
+    
+    
+}
+#kale1
+{
+    height:25vh;
+    width:8vw;
+    background:url(https://www.ozenduvarkagidi.com.tr/images/urunler/3D-Kiremit-Rengi-Tas-Desen-Duvar-Kagidi-resim-11145.jpg)no-repeat;
+    margin-top:51.7vh;
+    margin-left: 150px;
+    position: absolute;
+}
+/* #catı
+{
+    width:8vw;
+    height:8vh;
+    background:url(https://www.ozenduvarkagidi.com.tr/images/urunler/3D-Kiremit-Rengi-Tas-Desen-Duvar-Kagidi-resim-11145.jpg);
+    margin: top 18px;
+    margin: left 13px;
+    border: radius 2px;
+    
+    
+} */
+#kale2
+{
+    height:23vh;
+    width:8vw;
+    background-color:red;
+    background: url(https://www.ozenduvarkagidi.com.tr/images/urunler/Tas-Desen-Duvar-Kagidi---Krem-Bej-resim-11222.jpg)no-repeat;
+    margin-left:800px;
+    margin-top:2vh;
+    position: absolute;
+}
+#deste
+{
+    width:30vw;
+    height:10vh;
+    background-color: burlywood;
+    margin-left:26vw;
+    margin-top:5vh;
+    position: absolute;
+}
+#kart1
+{
+    width:3vw;
+    height:6vh;
+    background-color: blue;
+    margin-left:2vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+#kart2
+{
+    width:3vw;
+    height:6vh;
+    background-color:blueviolet;
+    margin-left:6vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+#kart3
+{
+    width:3vw;
+    height:6vh;
+    background-color:brown;
+    margin-left:10vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+#kart4
+{
+    width:3vw;
+    height:6vh;
+    background-color:crimson;
+    margin-left:14vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+#kart5
+{
+    width:3vw;
+    height:6vh;
+    background-color:chartreuse;
+    margin-left:18vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+#kart6
+{
+    width:3vw;
+    height:6vh;
+    background-color:darkgray;
+    margin-left:22vw;
+    margin-top: 1vw;
+    position: absolute;
+    
+}
+#kart7
+{
+    width:3vw;
+    height:6vh;
+    background-color:cornflowerblue;
+    margin-left:26vw;
+    margin-top: 1vw;
+    position: absolute;
+} 
