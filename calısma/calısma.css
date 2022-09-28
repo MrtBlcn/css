@@ -1,0 +1,43 @@
+body
+{
+    display: flex;
+    background-color: beige;
+    
+}
+#ana
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#parentx
+{
+height:40vh;
+width:50vw;
+background-color:blue;
+display:flex;
+flex-wrap:wrap;
+flex-direction:row-reverse;
+justify-content:space-around;
+align-items:center;
+gap: 60px 0;
+
+}
+#childsx
+{
+    height: 100px;
+    width: 200px;
+    background-color:black;
+    
+}
+#childsy
+{
+    height: 100px;
+    width: 200px;
+    background-color:red;
+
+}
