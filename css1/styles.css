@@ -1,0 +1,190 @@
+
+ body
+{
+    background-color:black;
+    margin: 0;
+}
+/* h1
+        {
+            margin: 0%;
+            padding: top 8px;
+        }
+#div0
+{
+    background-color: burlywood;
+    text-align: center;
+    height: 20vh;
+    color:cornflowerblue ;
+    font-style:oblique;
+    
+    border:solid;
+            border: width 10px;
+            border-radius: 20px;
+            border: bottom 15px;
+            font-family: 'Ms Madi', cursive;
+        
+}
+#index
+{
+    height: 50vw;
+    background-color: beige;
+}
+#footer
+{
+    background-color: burlywood;
+    text-align: center;
+    height: 10vh0;
+    color: cornflowerblue;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+#mb1
+{
+    background-color: blueviolet;
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            text-align: center;
+            
+}  */
+ #box
+{
+    height:100px;
+    width: 100px;
+    background-color:darkred;
+    border: 10px;
+    border-style:dashed;
+    border-color:blue;
+    padding: 70px;/*iç*/
+     margin-bottom:0px;}/* dış */
+    
+
+
+#boxs
+{
+    height: 20px;
+    width: 20px;
+    background-color: chocolate;
+    padding: 20px;
+    margin:auto;
+}
+#box1
+{
+    height: 300px;
+    width: 300px;
+    background-color:darkred;
+    border: 10px;
+    border-style:dashed;
+    border-color:blue;
+    color: aliceblue;
+    margin-left: 500px;
+    
+    
+
+}
+#boxs1
+{
+    height: 20px;
+    width: 20px;
+    background-color:darkgoldenrod;
+    padding: 20px;
+    margin:auto;
+}
+#box2
+{
+    height: 300px;
+    width: 300px;
+    background-color:darkred;
+    border: 10px;
+    border-style:dashed;
+    border-color:blue;
+    margin-left: 1000px;
+    
+    
+
+}
+#boxs2
+{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    margin-top: 250px;
+   
+} 
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555; */
+    
+    /*height: 100%;  Full height */
+    /*  position: fixed; Make it stick, even on scroll */
+      /*overflow: auto;Enable scrolling if the sidenav has too much content  
+ } */
+
+  /* li {
+    text-align:center;
+    border-bottom: 1px solid #555;
+    display:inline ;
+  } 
+   li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  } */ 
+  /* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float:left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   */
+  /* Change the link color to #111 (black) on hover */
+  /* li a:hover {
+    background-color: #111;
+  }
+  li:last-child {
+    border-right: none;
+  } */ 
