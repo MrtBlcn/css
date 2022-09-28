@@ -1,0 +1,247 @@
+:root
+{
+    --lightblue:#c6e8f3;
+}
+
+body
+{
+margin:0;
+background-color:lightblue;
+font-family: 'Catamaran', sans-serif;
+
+
+
+}
+#nav
+{
+ margin:0;
+ width:100vw;
+ font-weight: bolder;
+ background-color:orange;
+ position:sticky;
+ 
+ 
+}
+ul
+{
+    list-style:none;
+    margin: 0;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:1em 0;
+    
+
+}
+li a
+{
+    text-decoration: none;
+    color: white;
+    padding-right:5em;
+    position:relative;
+    transition: all ease-in-out 250ms;
+}
+li a::after
+{
+    content:'';
+    position:absolute;
+    display:block;
+    height: 0.4em;
+    width:-100%;
+    background-color:var(--lightblue);
+    /* bottom:-1em; */
+    transition: all ease-in-out 250ms;
+    
+}
+
+li a:hover::after
+{
+    width:40%;
+}
+li a:hover
+{
+    color:var(--lightblue);
+}
+li:first-child
+{
+    margin-right: auto;
+    margin-left: 2em;
+}
+#bod
+{
+    width:100vw;
+    height:35em;
+    background-color:black;
+    background:url(https://cdn.motor1.com/images/mgl/4b1Qk/s3/mclaren-600lt-mclaren-orange.jpg)no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:-5em;
+    opacity:100%;
+    margin: 0%;
+    
+}
+#isim
+{
+    width:100%;
+    height:40vh;
+    background-color: rgb(230, 179, 12);
+    border:1px solid rgb(0, 0, 0);
+    border-radius:5px;
+    justify-content: center;
+    opacity:50%;
+
+
+}
+h1{
+ font-size: larger;
+ font-family: Arial, Helvetica, sans-serif;
+ color:rgb(248, 244, 244);
+ opacity: 100%;
+ text-align: center;
+ 
+}
+
+.btn-12{
+    position:relative;
+    right:-600px;
+    bottom: 20px;
+    border:none;
+    box-shadow: none;
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    -webkit-perspective: 230px;
+    perspective: 230px;
+  }
+  .btn-12 span {
+    background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    box-shadow:inset 2px 2px 2px 0px rgba(218, 162, 42, 0.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    border-radius: 5px;
+    margin:0;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  .btn-12 span:nth-child(1) {
+    box-shadow:
+     -7px -7px 20px 0px rgba(250, 216, 23, 0.6),
+     -4px -4px 5px 0px rgba(247, 206, 23, 0.6),
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: 50% 50% -20px;
+    -moz-transform-origin: 50% 50% -20px;
+    transform-origin: 50% 50% -20px;
+  }
+  .btn-12 span:nth-child(2) {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: 50% 50% -20px;
+    -moz-transform-origin: 50% 50% -20px;
+    transform-origin: 50% 50% -20px;
+  }
+  .btn-12:hover span:nth-child(1) {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+  .btn-12:hover span:nth-child(2) {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+   color: transparent;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+  }
+  
+#tanitim
+{
+    margin-top: 100px;
+    width:100%;
+    height: 400px;
+    background-color:lightblue;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#tanitim-child1
+{
+background:url(https://mystickermania.com/cdn/stickers/memes/sticker_2100-512x512.png)no-repeat; 
+    background-size:cover;
+    width:300px;
+    height:300px
+}
+#tanitim-child2
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+    height:100px;
+    background-color:lightblue;
+    text-align: center;
+    margin-top:100px;
+}
+#resmi
+{
+    margin-top:250px;
+    width:100%;
+    height: 400px;
+    background-color:lightblue;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#resmi-child1
+{
+    background:url(https://teknomers.com/wp-content/uploads/2022/07/2022-McLaren-GT-klasik-bir-tarifin-yeni-bir-yorumu.jpeg)no-repeat; 
+    background-size:cover;
+    width:400px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    height:200px;
+    
+}
+#resmi-child2
+{
+    margin-top:60em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    background-color:lightblue;
+    text-align: center;
+    margin-top:100px;
+}
+.footer
+{
+    background :orange;
+    font-size : 19px;
+    display: block;
+    width:100%;
+    height:100px;
+    text-align: center;
+    
+}
